@@ -29,31 +29,31 @@
                             <h1 class="center">Dados Pessoais</h1>
                         </div>
                         <div class="flex flexcolumn">
-                            <label>Nome completo: </label><input type="text" id="inNome">
-                            <label>Data de Nascimento: </label><input type="date" id="inData">
+                            <label>Nome completo: </label><input type="text" id="inNome" required>
+                            <label>Data de Nascimento: </label><input type="date" id="inData" required>
                             <label>Gênero: </label>
                             <hr class="maxWidth">
                             <div class="flex space">
                                 <div>
-                                    <input type="radio" id="inMasculino" value="Masculino">
+                                    <input type="radio" id="inMasculino" value="Masculino" required>
                                     <label>Masculino</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="inFeminino" value="Feminino">
+                                    <input type="radio" id="inFeminino" value="Feminino" required>
                                     <label>Feminino</label><br>
                                 </div>
                             </div>
-                            <label>Telefone: </label><input type="tel" id="inTelefone">
-                            <label>Endereço: </label><input type="text" id="inEndereco">
+                            <label>Telefone: </label><input type="tel" id="inTelefone" required>
+                            <label>Endereço: </label><input type="text" id="inEndereco" required>
                             <label class="pad">Estado Civil: </label>
                             <hr class="maxWidth">
                             <div class="flex space">
                                 <div>
-                                    <input type="radio" id="inCasado" value="Casado">
+                                    <input type="radio" id="inCasado" value="Casado" required>
                                     <label>Casado</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="inSolteiro" value="Solteiro">
+                                    <input type="radio" id="inSolteiro" value="Solteiro" required>
                                     <label>Solteiro</label><br>
                                 </div>
                             </div>
@@ -61,11 +61,11 @@
                             <hr class="maxWidth">
                             <div class="flex space">
                                 <div>
-                                    <input type="radio" id="inBrasileira" value="Brasileira">
+                                    <input type="radio" id="inBrasileira" value="Brasileira" required>
                                     <label>Brasileira</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="inExterna" value="Externa">
+                                    <input type="radio" id="inExterna" value="Externa" required>
                                     <label>Externa</label><br>
                                 </div>
                             </div>
@@ -86,8 +86,8 @@
                             <h1 class="center">Dados Acadêmicos</h1>
                         </div>
                         <div class="flex flexcolumn">
-                            <label>Profissão: </label><input type="text" id="">
-                            <label>Anos de experiência: </label><input type="number" id="">
+                            <label>Profissão: </label><input type="text" id="inProfissao">
+                            <label>Anos de experiência: </label><input type="number" id="inAnosExperiencia">
                             <label>Selecione qual é mais fácil para você:</label>
                             <hr class="maxWidth">
                             <div class="flex space">
@@ -96,7 +96,7 @@
                                     <label>HTML</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="css"value="CSS">
+                                    <input type="radio" id="css" value="CSS">
                                     <label>CSS</label><br>
                                 </div>
                                 <div>
@@ -104,8 +104,9 @@
                                     <label for="javascript">JavaScript</label>
                                 </div>
                             </div>
-                            <label>1 à 10, qual seu nível de conhecimento em JS? </label><input type="range" id="" min="1" max="10">
-                            <label>Seu currículo: </label><input type="file" id="">
+                            <label>1 à 10, qual seu nível de conhecimento em JS? </label><input type="range" id=""
+                                min="1" max="10">
+                            <label>Seu currículo: </label><input type="file" id="inFile">
                             <label>Qual linguagens você sabe?</label>
                             <div class="flex space">
                                 <div>
@@ -121,8 +122,9 @@
                                     <label for="vehicle3">Java</label>
                                 </div>
                             </div>
-                            <label>Quais foram as suas últimas profissões?: </label><input type="text" id="">
-                            <label>Qual era a média salarial delas?: </label><input type="number" id="">
+                            <label>Quais foram as suas últimas profissões?: </label><input type="text"
+                                id="inUltimasProfissoes">
+                            <label>Qual era a média salarial delas?: </label><input type="number" id="inMediaSalarial">
                         </div>
                     </div>
                 </div>
@@ -133,7 +135,7 @@
 
     <div class="mainContainer center">
         <form id="formDele">
-            <h1 class="center">Dados do seu irmão:</h1>
+            <h1 class="center">Seus dados:</h1>
             <br>
             <div class="container">
                 <div class="side">
@@ -142,31 +144,31 @@
                             <h1 class="center">Dados Pessoais</h1>
                         </div>
                         <div class="flex flexcolumn">
-                            <label>Nome completo: </label><input type="text" id="inNome">
-                            <label>Data de Nascimento: </label><input type="date" id="inData">
+                            <label>Nome completo: </label><input type="text" id="inNome" required>
+                            <label>Data de Nascimento: </label><input type="date" id="inData" required>
                             <label>Gênero: </label>
                             <hr class="maxWidth">
                             <div class="flex space">
                                 <div>
-                                    <input type="radio" id="inMasculino" value="Masculino">
+                                    <input type="radio" id="inMasculino" value="Masculino" required>
                                     <label>Masculino</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="inFeminino" value="Feminino">
+                                    <input type="radio" id="inFeminino" value="Feminino" required>
                                     <label>Feminino</label><br>
                                 </div>
                             </div>
-                            <label>Telefone: </label><input type="tel" id="inTelefone">
-                            <label>Endereço: </label><input type="text" id="inEndereco">
+                            <label>Telefone: </label><input type="tel" id="inTelefone" required>
+                            <label>Endereço: </label><input type="text" id="inEndereco" required>
                             <label class="pad">Estado Civil: </label>
                             <hr class="maxWidth">
                             <div class="flex space">
                                 <div>
-                                    <input type="radio" id="inCasado" value="Casado">
+                                    <input type="radio" id="inCasado" value="Casado" required>
                                     <label>Casado</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="inSolteiro" value="Solteiro">
+                                    <input type="radio" id="inSolteiro" value="Solteiro" required>
                                     <label>Solteiro</label><br>
                                 </div>
                             </div>
@@ -174,11 +176,11 @@
                             <hr class="maxWidth">
                             <div class="flex space">
                                 <div>
-                                    <input type="radio" id="inBrasileira" value="Brasileira">
+                                    <input type="radio" id="inBrasileira" value="Brasileira" required>
                                     <label>Brasileira</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="inExterna" value="Externa">
+                                    <input type="radio" id="inExterna" value="Externa" required>
                                     <label>Externa</label><br>
                                 </div>
                             </div>
@@ -199,8 +201,8 @@
                             <h1 class="center">Dados Acadêmicos</h1>
                         </div>
                         <div class="flex flexcolumn">
-                            <label>Profissão: </label><input type="text" id="">
-                            <label>Anos de experiência: </label><input type="number" id="">
+                            <label>Profissão: </label><input type="text" id="inProfissao">
+                            <label>Anos de experiência: </label><input type="number" id="inAnosExperiencia">
                             <label>Selecione qual é mais fácil para você:</label>
                             <hr class="maxWidth">
                             <div class="flex space">
@@ -209,7 +211,7 @@
                                     <label>HTML</label><br>
                                 </div>
                                 <div>
-                                    <input type="radio" id="css"value="CSS">
+                                    <input type="radio" id="css" value="CSS">
                                     <label>CSS</label><br>
                                 </div>
                                 <div>
@@ -217,8 +219,8 @@
                                     <label for="javascript">JavaScript</label>
                                 </div>
                             </div>
-                            <label>1 à 10, qual seu nível de conhecimento em JS? </label><input type="range" id="" min="1" max="10">
-                            <label>Seu currículo: </label><input type="file" id="">
+                            <label>1 à 10, qual seu nível de conhecimento em JS? </label><input type="range" id="inNivelConhecimento" min="1" max="10">
+                            <label>Seu currículo: </label><input type="file" id="inFile">
                             <label>Qual linguagens você sabe?</label>
                             <div class="flex space">
                                 <div>
@@ -234,8 +236,8 @@
                                     <label for="vehicle3">Java</label>
                                 </div>
                             </div>
-                            <label>Quais foram as suas últimas profissões?: </label><input type="text" id="">
-                            <label>Qual era a média salarial delas?: </label><input type="number" id="">
+                            <label>Quais foram as suas últimas profissões?: </label><input type="text" id="inUltimasProfissoes">
+                            <label>Qual era a média salarial delas?: </label><input type="number" id="inMediaSalarial">
                         </div>
                     </div>
                 </div>
@@ -243,7 +245,6 @@
             <br>
         </form>
     </div>
-
     <div class="flex flexcenter">
         <button onclick="validarForm()">Enviar</button>
     </div>
