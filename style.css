@@ -63,7 +63,7 @@ button{
 }
 
 .pad{
-    padding-top: 7px;
+    padding-top: 17px;
 }
 
 header{
@@ -84,4 +84,18 @@ header > h4{
     color: gray;
     margin: 0;
     padding: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+}
+
+footer > p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }

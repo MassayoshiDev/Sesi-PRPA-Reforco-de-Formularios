@@ -130,12 +130,126 @@
             <br>
         </form>
     </div>
+
+    <div class="mainContainer center">
+        <form id="formDele">
+            <h1 class="center">Dados do seu irmão:</h1>
+            <br>
+            <div class="container">
+                <div class="side">
+                    <div class="sideContent center">
+                        <div class="flex flexcenter">
+                            <h1 class="center">Dados Pessoais</h1>
+                        </div>
+                        <div class="flex flexcolumn">
+                            <label>Nome completo: </label><input type="text" id="inNome">
+                            <label>Data de Nascimento: </label><input type="date" id="inData">
+                            <label>Gênero: </label>
+                            <hr class="maxWidth">
+                            <div class="flex space">
+                                <div>
+                                    <input type="radio" id="inMasculino" value="Masculino">
+                                    <label>Masculino</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="inFeminino" value="Feminino">
+                                    <label>Feminino</label><br>
+                                </div>
+                            </div>
+                            <label>Telefone: </label><input type="tel" id="inTelefone">
+                            <label>Endereço: </label><input type="text" id="inEndereco">
+                            <label class="pad">Estado Civil: </label>
+                            <hr class="maxWidth">
+                            <div class="flex space">
+                                <div>
+                                    <input type="radio" id="inCasado" value="Casado">
+                                    <label>Casado</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="inSolteiro" value="Solteiro">
+                                    <label>Solteiro</label><br>
+                                </div>
+                            </div>
+                            <label class="pad">Nacionalidade: </label>
+                            <hr class="maxWidth">
+                            <div class="flex space">
+                                <div>
+                                    <input type="radio" id="inBrasileira" value="Brasileira">
+                                    <label>Brasileira</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="inExterna" value="Externa">
+                                    <label>Externa</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Divisão -->
+                <!--%%%%%%%%%-->
+                <!--%%%%%%%%%-->
+                <!--%%%%%%%%%-->
+                <!--%%%%%%%%%-->
+                <!--%%%%%%%%%-->
+                <!--%%%%%%%%%-->
+                <!-- Fim Divisão -->
+                <div class="side">
+                    <div class="sideContent center">
+                        <div class="flex flexcenter">
+                            <h1 class="center">Dados Acadêmicos</h1>
+                        </div>
+                        <div class="flex flexcolumn">
+                            <label>Profissão: </label><input type="text" id="">
+                            <label>Anos de experiência: </label><input type="number" id="">
+                            <label>Selecione qual é mais fácil para você:</label>
+                            <hr class="maxWidth">
+                            <div class="flex space">
+                                <div>
+                                    <input type="radio" id="html" value="HTML">
+                                    <label>HTML</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="css"value="CSS">
+                                    <label>CSS</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="javascript" value="JavaScript">
+                                    <label for="javascript">JavaScript</label>
+                                </div>
+                            </div>
+                            <label>1 à 10, qual seu nível de conhecimento em JS? </label><input type="range" id="" min="1" max="10">
+                            <label>Seu currículo: </label><input type="file" id="">
+                            <label>Qual linguagens você sabe?</label>
+                            <div class="flex space">
+                                <div>
+                                    <input type="checkbox" id="inCsharp" value="Csharp">
+                                    <label for="vehicle1">C#</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="inPython" value="Python">
+                                    <label for="vehicle2">Python</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="inJava" value="Java">
+                                    <label for="vehicle3">Java</label>
+                                </div>
+                            </div>
+                            <label>Quais foram as suas últimas profissões?: </label><input type="text" id="">
+                            <label>Qual era a média salarial delas?: </label><input type="number" id="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </form>
+    </div>
+
     <div class="flex flexcenter">
         <button onclick="validarForm()">Enviar</button>
     </div>
 
     <footer>
-
+        <p>Site de reforço sobre formulários.</p>
     </footer>
 
 </body>
